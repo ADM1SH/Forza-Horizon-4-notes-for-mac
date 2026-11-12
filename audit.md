@@ -5,7 +5,7 @@ This repo has notes only: no website, server, database, payment or login. Checkl
 | Group | Status | Reason |
 |---|---|---|
 | Protect (20 items) | N/A | No service or code |
-| Security: secrets | Partial | Regex scan before the first push (SteamID, key, token, private key patterns). `gitleaks` is not installed. History has 1 commit |
+| Security: secrets | Partial | Regex scan before the first push (SteamID, key, token, private key patterns). `gitleaks` is not installed. History has 3 commits. The author email of all 3 is the GitHub noreply address (checked before the repo became public) |
 | Security: other 19 items | N/A | No backend, login or site |
 | Site polish (20 items) | N/A | No website. README.md renders on GitHub |
 
