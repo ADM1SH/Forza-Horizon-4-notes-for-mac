@@ -10,7 +10,7 @@ Updated 12/11/2026. Facts come from the FH5 research repo (public sections) and 
 | FH4 patches in the `Steam` bottle | `kernelbase.dll` SHA-256 starts `313a9d07`. `d3d12.dll` starts `f3038fdc`. 7 environment keys with the `HB_` prefix are set in `cxbottle.conf`. A provider DLL is present | Proven (shasum, read of the config copy, 05/11/2026) |
 | FH4 patch tool runs | The CrossOver `apple_gptk` folder holds 3 backups named `d3d12.dll.bak_fh4_archive_<date>-<time>`: 29/10/2026 14:15, 07/11/2026 15:41 and 09/11/2026 23:54. All 3 have the SHA-256 `02aa6734` (the stock file) | Proven (file names, shasum, 11/11/2026). That the patch tool made them is an inference from the name |
 | `d3d12.dll` in the CrossOver `apple_gptk` folder | It is the FH4 proxy (`f3038fdc`) since 09/11/2026 23:54 | Proven (shasum, ls, 11/11/2026) |
-| FH4 launch result today | Not tested since the CrossOver changes of 05/11/2026 to 11/11/2026 | Unknown. Prove it: Adam starts FH4 from the original `CrossOver.app` in the `Steam` bottle |
+| FH4 launch result today | No result is recorded here since the CrossOver changes of 05/11/2026 to 11/11/2026. The patch tool ran again on 09/11/2026 at 23:54, so Adam may have played FH4 after that | Unknown. Prove it: Adam starts FH4 from the original `CrossOver.app` in the `Steam` bottle |
 
 ## 2. What the third-party project claims (not verified here)
 
@@ -29,7 +29,7 @@ Source: its README, read on 12/11/2026. Each line is a claim of the author.
 
 The FH4 patch is app-wide. It replaces `d3d12.dll` in the CrossOver `apple_gptk` folder, so every bottle that uses D3DMetal loads it. This clashed with the FH5 research (FH5 D-017 and D-022).
 
-Since 11/11/2026 FH5 runs from its own app copy, `/Applications/CrossOver (FH5).app`, in its own bottle. The original `CrossOver.app` and the `Steam` bottle were not changed by that install:
+Since 11/11/2026 FH5 is set up to run from its own app copy, `/Applications/CrossOver (FH5).app`, in its own bottle. It has not run there yet. The original `CrossOver.app` and the `Steam` bottle were not changed by that install:
 
 | Check | Result | Status |
 |---|---|---|
@@ -37,7 +37,7 @@ Since 11/11/2026 FH5 runs from its own app copy, `/Applications/CrossOver (FH5).
 | Original app `d3d12.dll` | Still the FH4 proxy (`f3038fdc`) | Proven (shasum) |
 | `Steam` bottle files | No file newer than a marker file made before the install. Dates of `user.reg`, `system.reg` and `cxbottle.conf` are the same | Proven (find, stat) |
 
-Meaning: FH4 and FH5 no longer fight over the shared `d3d12.dll`. One shared item stays: both games can use the same Steam library folder on the external SSD. A file in the FH5 game folder does not touch the FH4 game folder.
+Meaning: by design, and not tested in game, FH4 and FH5 no longer fight over the shared `d3d12.dll`, as long as FH5 always starts from the app copy. One shared item stays: both games can use the same Steam library folder on the external SSD. A file in the FH5 game folder does not touch the FH4 game folder.
 
 ## 4. Open
 

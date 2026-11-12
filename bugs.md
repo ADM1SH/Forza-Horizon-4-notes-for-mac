@@ -13,7 +13,7 @@
 
 ## Open
 
-None recorded. No FH4 run has happened since the changes of 05/11/2026 to 11/11/2026.
+None recorded. No FH4 run is recorded here since the changes of 05/11/2026 to 11/11/2026. The patch tool ran again on 09/11/2026 at 23:54, so Adam may have played FH4 after that.
 
 ## Known risks
 
