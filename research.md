@@ -10,7 +10,7 @@ Updated 12/11/2026. Facts come from the FH5 research repo (public sections) and 
 | FH4 patches in the `Steam` bottle | `kernelbase.dll` SHA-256 starts `313a9d07`. `d3d12.dll` starts `f3038fdc`. 7 environment keys with the `HB_` prefix are set in `cxbottle.conf`. A provider DLL is present | Proven (shasum, read of the config copy, 05/11/2026) |
 | FH4 patch tool runs | The CrossOver `apple_gptk` folder holds 3 backups named `d3d12.dll.bak_fh4_archive_<date>-<time>`: 29/10/2026 14:15, 07/11/2026 15:41 and 09/11/2026 23:54. All 3 have the SHA-256 `02aa6734` (the stock file) | Proven (file names, shasum, 11/11/2026). That the patch tool made them is an inference from the name |
 | `d3d12.dll` in the CrossOver `apple_gptk` folder | It is the FH4 proxy (`f3038fdc`) since 09/11/2026 23:54 | Proven (shasum, ls, 11/11/2026) |
-| FH4 launch result today | No result is recorded here since the CrossOver changes of 05/11/2026 to 11/11/2026. The patch tool ran again on 09/11/2026 at 23:54, so Adam may have played FH4 after that | Unknown. Prove it: Adam starts FH4 from the original `CrossOver.app` in the `Steam` bottle |
+| FH4 launch result today | No result is recorded here since the CrossOver changes of 05/11/2026 to 11/11/2026. The patch tool ran again on 09/11/2026 at 23:54, so Adam may have played FH4 after that. Adam reports on 12/11/2026 that FH4 works with the third-party patches | User-reported. Not proven here: no log or screenshot. To prove it: Adam starts FH4 from the original `CrossOver.app` in the `Steam` bottle |
 
 ## 2. What the third-party project claims (not verified here)
 

@@ -2,7 +2,7 @@
 
 Own notes on Forza Horizon 4 (Steam) on Apple Silicon through CrossOver and Apple D3DMetal. This repo holds notes only. It holds no patches, no binaries and no files of other projects.
 
-Status on 12/11/2026: the FH4 patches of a third-party project are installed in the `Steam` bottle of the test Mac. No FH4 result is recorded here since the CrossOver changes of 05/11/2026 to 11/11/2026. Whether FH4 still works is unknown. See research.md.
+Status on 12/11/2026: the FH4 patches of a third-party project are installed in the `Steam` bottle of the test Mac. No FH4 result is recorded here since the CrossOver changes of 05/11/2026 to 11/11/2026. Adam reports that FH4 works with those patches (user-reported, no log yet). See research.md.
 
 ## Scope
 

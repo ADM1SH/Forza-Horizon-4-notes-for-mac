@@ -13,7 +13,7 @@ Updated: 12/11/2026.
 - The repo is new. Docs are written and pushed to a public GitHub repo (`ADM1SH/Forza-Horizon-4-notes-for-mac`, public since 12/11/2026, D-004).
 - FH4 patches of the third-party project are in the `Steam` bottle and in the CrossOver `apple_gptk` folder (research.md, section 1).
 - FH5 is set up to run from its own app copy since 11/11/2026. It has not run there yet. The original app and the `Steam` bottle were not changed by that install.
-- Unknown: whether FH4 still works.
+- Adam reports (12/11/2026) that FH4 works with the third-party patches. User-reported, no log or screenshot. FH4 working says nothing about FH5.
 
 ## 3. Active files
 
